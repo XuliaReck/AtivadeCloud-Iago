@@ -14,4 +14,4 @@ class AWSController{
     }
 }
 
-module.AWSController = new AWSController
+module.AWSController = new AWSController();
