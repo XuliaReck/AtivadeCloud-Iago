@@ -28,8 +28,10 @@ class ImagemRepository{
 
     async removerImagem(id) {
         try{
-            
+
         }
     } 
 
 }
+
+module.export = new ImagemService();
