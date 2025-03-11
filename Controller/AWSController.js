@@ -4,7 +4,7 @@ class AWSController{
         try {                                           
             const {referencia} = req.body;              
             if (!referencia){                          
-                return res.status(400).json({ error: " A referencia da imagem é uma informação obrigatoria"}) 
+                return res.status(400).json({ error: " obrigatorio o uso da referencia"}) 
             }
             const resultado = await AWSService.buscarImaegem(referencia); 
             res.json(resultado);                       
